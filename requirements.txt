@@ -1,0 +1,12 @@
+langchain-google-community[gmail]==2.0.4
+langchain-openai>=0.0.5
+langchain-core>=0.3.0,<0.4
+langchain-community>=0.3.0,<0.4
+google-api-python-client>=2.111.0
+google-auth-httplib2>=0.1.1
+google-auth-oauthlib>=1.1.0
+python-dotenv==1.0.0
+fastapi==0.109.0
+uvicorn==0.25.0
+pydantic==2.5.3
+python-multipart==0.0.6 

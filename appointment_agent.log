@@ -1,0 +1,414 @@
+2025-02-05 18:03:07,490 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:03:07,536 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:03:07,576 - INFO - Email monitoring started
+2025-02-05 18:03:07,597 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:03:07,620 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:03:07,623 - ERROR - Error in process_new_emails: Can't instantiate abstract class BaseTool with abstract method _run
+2025-02-05 18:09:29,136 - INFO - Starting appointment booking service...
+2025-02-05 18:09:56,014 - INFO - Starting appointment booking service...
+2025-02-05 18:12:59,800 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:12:59,845 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:13:07,953 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:13:07,968 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:13:07,971 - ERROR - Error in process_new_emails: Field 'name' defined on a base class was overridden by a non-annotated attribute. All field definitions, including overrides, require a type annotation.
+
+For further information visit https://errors.pydantic.dev/2.10/u/model-field-overridden
+2025-02-05 18:15:32,410 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:15:32,485 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:18:32,919 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:18:32,962 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:20:05,608 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:20:05,657 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:20:11,824 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:20:11,838 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:20:13,455 - ERROR - Error processing email: Invalid input type <class 'dict'>. Must be a PromptValue, str, or list of BaseMessages.
+2025-02-05 18:20:13,456 - ERROR - Error processing email: Invalid input type <class 'dict'>. Must be a PromptValue, str, or list of BaseMessages.
+2025-02-05 18:20:13,564 - ERROR - Error processing email: Could not determine sender email
+2025-02-05 18:20:13,672 - ERROR - Error processing email: Invalid input type <class 'dict'>. Must be a PromptValue, str, or list of BaseMessages.
+2025-02-05 18:20:13,674 - ERROR - Error processing email: Invalid input type <class 'dict'>. Must be a PromptValue, str, or list of BaseMessages.
+2025-02-05 18:20:13,783 - ERROR - Error processing email: Invalid input type <class 'dict'>. Must be a PromptValue, str, or list of BaseMessages.
+2025-02-05 18:20:13,785 - ERROR - Error processing email: Invalid input type <class 'dict'>. Must be a PromptValue, str, or list of BaseMessages.
+2025-02-05 18:20:13,899 - ERROR - Error processing email: Invalid input type <class 'dict'>. Must be a PromptValue, str, or list of BaseMessages.
+2025-02-05 18:20:13,900 - ERROR - Error processing email: Invalid input type <class 'dict'>. Must be a PromptValue, str, or list of BaseMessages.
+2025-02-05 18:20:14,017 - ERROR - Error processing email: Invalid input type <class 'dict'>. Must be a PromptValue, str, or list of BaseMessages.
+2025-02-05 18:20:14,018 - ERROR - Error processing email: Invalid input type <class 'dict'>. Must be a PromptValue, str, or list of BaseMessages.
+2025-02-05 18:20:14,126 - ERROR - Error processing email: Invalid input type <class 'dict'>. Must be a PromptValue, str, or list of BaseMessages.
+2025-02-05 18:20:14,128 - ERROR - Error processing email: Invalid input type <class 'dict'>. Must be a PromptValue, str, or list of BaseMessages.
+2025-02-05 18:20:28,822 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:20:28,879 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:21:13,996 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:21:14,039 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:21:20,070 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:21:20,086 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:21:32,390 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:21:32,456 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:24:03,674 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:24:03,716 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:24:43,732 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:24:43,775 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:24:49,866 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:24:49,881 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:26:43,377 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:26:43,416 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:26:49,135 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:26:49,152 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:26:50,206 - INFO - No new emails to process
+2025-02-05 18:28:39,280 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:28:39,318 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:28:45,693 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:28:45,708 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:28:46,920 - INFO - Processing email from: coolmusta@gmail.com
+2025-02-05 18:28:47,510 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-02-05 18:28:47,513 - ERROR - Error processing email: Error code: 400 - {'error': {'message': "Missing required parameter: 'tools[0].type'.", 'type': 'invalid_request_error', 'param': 'tools[0].type', 'code': 'missing_required_parameter'}}
+2025-02-05 18:28:47,514 - ERROR - Error processing email: Error code: 400 - {'error': {'message': "Missing required parameter: 'tools[0].type'.", 'type': 'invalid_request_error', 'param': 'tools[0].type', 'code': 'missing_required_parameter'}}
+2025-02-05 18:28:47,516 - INFO - Processing email from: unknown
+2025-02-05 18:28:47,517 - ERROR - Error processing email: Could not determine sender email
+2025-02-05 18:28:47,518 - INFO - Processing email from: coolmusta@gmail.com
+2025-02-05 18:28:47,637 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-02-05 18:28:47,639 - ERROR - Error processing email: Error code: 400 - {'error': {'message': "Missing required parameter: 'tools[0].type'.", 'type': 'invalid_request_error', 'param': 'tools[0].type', 'code': 'missing_required_parameter'}}
+2025-02-05 18:28:47,641 - ERROR - Error processing email: Error code: 400 - {'error': {'message': "Missing required parameter: 'tools[0].type'.", 'type': 'invalid_request_error', 'param': 'tools[0].type', 'code': 'missing_required_parameter'}}
+2025-02-05 18:29:16,207 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:29:16,259 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:29:17,253 - INFO - Processing email from: coolmusta@gmail.com
+2025-02-05 18:29:17,385 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-02-05 18:29:17,387 - ERROR - Error processing email: Error code: 400 - {'error': {'message': "Missing required parameter: 'tools[0].type'.", 'type': 'invalid_request_error', 'param': 'tools[0].type', 'code': 'missing_required_parameter'}}
+2025-02-05 18:29:17,388 - ERROR - Error processing email: Error code: 400 - {'error': {'message': "Missing required parameter: 'tools[0].type'.", 'type': 'invalid_request_error', 'param': 'tools[0].type', 'code': 'missing_required_parameter'}}
+2025-02-05 18:29:17,389 - INFO - Processing email from: unknown
+2025-02-05 18:29:17,391 - ERROR - Error processing email: Could not determine sender email
+2025-02-05 18:29:17,392 - INFO - Processing email from: coolmusta@gmail.com
+2025-02-05 18:29:17,505 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-02-05 18:29:17,507 - ERROR - Error processing email: Error code: 400 - {'error': {'message': "Missing required parameter: 'tools[0].type'.", 'type': 'invalid_request_error', 'param': 'tools[0].type', 'code': 'missing_required_parameter'}}
+2025-02-05 18:29:17,509 - ERROR - Error processing email: Error code: 400 - {'error': {'message': "Missing required parameter: 'tools[0].type'.", 'type': 'invalid_request_error', 'param': 'tools[0].type', 'code': 'missing_required_parameter'}}
+2025-02-05 18:30:38,619 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:30:38,663 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:31:03,323 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:31:03,383 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:31:04,745 - INFO - Processing email from: coolmusta@gmail.com
+2025-02-05 18:31:05,023 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-02-05 18:31:05,027 - ERROR - Error processing email: Error code: 400 - {'error': {'message': "Missing required parameter: 'tools[0].type'.", 'type': 'invalid_request_error', 'param': 'tools[0].type', 'code': 'missing_required_parameter'}}
+2025-02-05 18:31:05,029 - ERROR - Error processing email: Error code: 400 - {'error': {'message': "Missing required parameter: 'tools[0].type'.", 'type': 'invalid_request_error', 'param': 'tools[0].type', 'code': 'missing_required_parameter'}}
+2025-02-05 18:31:05,031 - INFO - Processing email from: unknown
+2025-02-05 18:31:05,032 - ERROR - Error processing email: Could not determine sender email
+2025-02-05 18:31:05,033 - INFO - Processing email from: coolmusta@gmail.com
+2025-02-05 18:31:05,181 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-02-05 18:31:05,183 - ERROR - Error processing email: Error code: 400 - {'error': {'message': "Missing required parameter: 'tools[0].type'.", 'type': 'invalid_request_error', 'param': 'tools[0].type', 'code': 'missing_required_parameter'}}
+2025-02-05 18:31:05,185 - ERROR - Error processing email: Error code: 400 - {'error': {'message': "Missing required parameter: 'tools[0].type'.", 'type': 'invalid_request_error', 'param': 'tools[0].type', 'code': 'missing_required_parameter'}}
+2025-02-05 18:31:22,042 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:31:22,093 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:32:31,280 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:32:31,325 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:32:37,418 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:32:37,431 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:32:38,697 - INFO - Processing email from: coolmusta@gmail.com
+2025-02-05 18:32:38,699 - ERROR - Error processing email: Completions.create() got an unexpected keyword argument 'api_version'
+2025-02-05 18:32:38,699 - ERROR - Error processing email: Completions.create() got an unexpected keyword argument 'api_version'
+2025-02-05 18:32:38,701 - INFO - Processing email from: unknown
+2025-02-05 18:32:38,702 - ERROR - Error processing email: Could not determine sender email
+2025-02-05 18:32:38,703 - INFO - Processing email from: coolmusta@gmail.com
+2025-02-05 18:32:38,704 - ERROR - Error processing email: Completions.create() got an unexpected keyword argument 'api_version'
+2025-02-05 18:32:38,705 - ERROR - Error processing email: Completions.create() got an unexpected keyword argument 'api_version'
+2025-02-05 18:33:19,269 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:33:19,310 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:33:24,617 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:33:24,633 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:33:25,907 - INFO - Processing email from: coolmusta@gmail.com
+2025-02-05 18:33:26,190 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-02-05 18:33:26,193 - ERROR - Error processing email: Error code: 400 - {'error': {'message': "Missing required parameter: 'tools[0].type'.", 'type': 'invalid_request_error', 'param': 'tools[0].type', 'code': 'missing_required_parameter'}}
+2025-02-05 18:33:26,194 - ERROR - Error processing email: Error code: 400 - {'error': {'message': "Missing required parameter: 'tools[0].type'.", 'type': 'invalid_request_error', 'param': 'tools[0].type', 'code': 'missing_required_parameter'}}
+2025-02-05 18:33:26,196 - INFO - Processing email from: unknown
+2025-02-05 18:33:26,197 - ERROR - Error processing email: Could not determine sender email
+2025-02-05 18:33:26,198 - INFO - Processing email from: coolmusta@gmail.com
+2025-02-05 18:33:26,391 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-02-05 18:33:26,394 - ERROR - Error processing email: Error code: 400 - {'error': {'message': "Missing required parameter: 'tools[0].type'.", 'type': 'invalid_request_error', 'param': 'tools[0].type', 'code': 'missing_required_parameter'}}
+2025-02-05 18:33:26,395 - ERROR - Error processing email: Error code: 400 - {'error': {'message': "Missing required parameter: 'tools[0].type'.", 'type': 'invalid_request_error', 'param': 'tools[0].type', 'code': 'missing_required_parameter'}}
+2025-02-05 18:34:20,995 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:34:21,038 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:34:26,815 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:34:26,830 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:34:28,056 - INFO - Processing email from: coolmusta@gmail.com
+2025-02-05 18:34:29,059 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-05 18:34:29,070 - ERROR - Error processing email: Invalid response format
+2025-02-05 18:34:29,071 - INFO - Processing email from: unknown
+2025-02-05 18:34:29,072 - ERROR - Error processing email: Could not determine sender email
+2025-02-05 18:34:29,073 - INFO - Processing email from: coolmusta@gmail.com
+2025-02-05 18:34:29,483 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-05 18:34:29,486 - ERROR - Error processing email: Invalid response format
+2025-02-05 18:35:25,309 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:35:25,353 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:35:30,780 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:35:30,794 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:35:31,493 - ERROR - Error creating appointment agent: 'method' object is not subscriptable
+2025-02-05 18:35:31,494 - ERROR - Error in process_new_emails: 'method' object is not subscriptable
+2025-02-05 18:35:50,047 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:35:50,099 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:35:50,634 - ERROR - Error creating appointment agent: 'method' object is not subscriptable
+2025-02-05 18:35:50,635 - ERROR - Error in process_new_emails: 'method' object is not subscriptable
+2025-02-05 18:40:05,854 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:40:05,894 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:40:14,762 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:40:14,778 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:40:15,732 - ERROR - Error creating appointment agent: Prompt must have input variable `agent_scratchpad`, but wasn't found. Found [] instead.
+2025-02-05 18:40:15,733 - ERROR - Error in process_new_emails: Prompt must have input variable `agent_scratchpad`, but wasn't found. Found [] instead.
+2025-02-05 18:40:24,549 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:40:24,566 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:40:25,108 - ERROR - Error creating appointment agent: Prompt must have input variable `agent_scratchpad`, but wasn't found. Found [] instead.
+2025-02-05 18:40:25,108 - ERROR - Error in process_new_emails: Prompt must have input variable `agent_scratchpad`, but wasn't found. Found [] instead.
+2025-02-05 18:41:35,143 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:41:35,185 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:41:41,561 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:41:41,579 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:41:42,826 - INFO - Processing email from: coolmusta@gmail.com
+2025-02-05 18:41:43,295 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-05 18:41:44,343 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-05 18:41:44,508 - ERROR - Error parsing agent response: appointment_agent.AppointmentAction() argument after ** must be a mapping, not str
+2025-02-05 18:41:44,509 - ERROR - Error processing email: Invalid agent response format
+2025-02-05 18:41:44,510 - INFO - Processing email from: unknown
+2025-02-05 18:41:44,511 - ERROR - Error processing email: Could not determine sender email
+2025-02-05 18:41:44,512 - INFO - Processing email from: coolmusta@gmail.com
+2025-02-05 18:41:44,845 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-05 18:41:45,166 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-05 18:41:45,316 - ERROR - Error parsing agent response: appointment_agent.AppointmentAction() argument after ** must be a mapping, not str
+2025-02-05 18:41:45,317 - ERROR - Error processing email: Invalid agent response format
+2025-02-05 18:43:05,848 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:43:05,890 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:43:11,169 - ERROR - Exception in callback _HandlerDelegate.execute.<locals>.<lambda>(<Task cancell...\web.py:1746>>) at \\bear-ad.cs.fiu.edu\homes\Projects\challenges\appointment-booking\venv\Lib\site-packages\tornado\web.py:2438
+handle: <Handle _HandlerDelegate.execute.<locals>.<lambda>(<Task cancell...\web.py:1746>>) at \\bear-ad.cs.fiu.edu\homes\Projects\challenges\appointment-booking\venv\Lib\site-packages\tornado\web.py:2438>
+Traceback (most recent call last):
+  File "C:\Program Files\Python311\Lib\asyncio\events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "\\bear-ad.cs.fiu.edu\homes\Projects\challenges\appointment-booking\venv\Lib\site-packages\tornado\web.py", line 2438, in <lambda>
+    fut.add_done_callback(lambda f: f.result())
+                                    ^^^^^^^^^^
+  File "\\bear-ad.cs.fiu.edu\homes\Projects\challenges\appointment-booking\venv\Lib\site-packages\tornado\web.py", line 1746, in _execute
+    async def _execute(
+asyncio.exceptions.CancelledError
+2025-02-05 18:43:11,205 - ERROR - Exception in callback _HandlerDelegate.execute.<locals>.<lambda>(<Task cancell...\web.py:1746>>) at \\bear-ad.cs.fiu.edu\homes\Projects\challenges\appointment-booking\venv\Lib\site-packages\tornado\web.py:2438
+handle: <Handle _HandlerDelegate.execute.<locals>.<lambda>(<Task cancell...\web.py:1746>>) at \\bear-ad.cs.fiu.edu\homes\Projects\challenges\appointment-booking\venv\Lib\site-packages\tornado\web.py:2438>
+Traceback (most recent call last):
+  File "C:\Program Files\Python311\Lib\asyncio\events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "\\bear-ad.cs.fiu.edu\homes\Projects\challenges\appointment-booking\venv\Lib\site-packages\tornado\web.py", line 2438, in <lambda>
+    fut.add_done_callback(lambda f: f.result())
+                                    ^^^^^^^^^^
+  File "\\bear-ad.cs.fiu.edu\homes\Projects\challenges\appointment-booking\venv\Lib\site-packages\tornado\web.py", line 1746, in _execute
+    async def _execute(
+asyncio.exceptions.CancelledError
+2025-02-05 18:44:06,715 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:44:06,757 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:44:17,479 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:44:17,495 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:44:18,740 - INFO - Processing email from: coolmusta@gmail.com
+2025-02-05 18:44:19,309 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-05 18:44:19,613 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-05 18:44:20,138 - INFO - Processing email from: unknown
+2025-02-05 18:44:20,139 - ERROR - Error processing email: Could not determine sender email
+2025-02-05 18:44:20,141 - INFO - Processing email from: coolmusta@gmail.com
+2025-02-05 18:44:20,454 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-05 18:44:20,801 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-05 18:46:39,733 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:46:39,774 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:46:48,210 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:46:48,224 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:46:49,428 - INFO - Processing email from: coolmusta@gmail.com
+2025-02-05 18:46:50,214 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-05 18:46:50,863 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-05 18:46:51,298 - INFO - No action needed for email from coolmusta@gmail.com
+2025-02-05 18:46:51,474 - INFO - Marked message 194d85b43a10453a as read
+2025-02-05 18:46:51,475 - INFO - Marked non-appointment email 194d85b43a10453a as read
+2025-02-05 18:46:51,478 - INFO - Processing email from: 
+2025-02-05 18:46:51,479 - ERROR - Error processing email: Could not determine sender email
+2025-02-05 18:46:51,480 - INFO - Processing email from: coolmusta@gmail.com
+2025-02-05 18:46:51,815 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-05 18:46:52,197 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-05 18:46:52,810 - INFO - No action needed for email from coolmusta@gmail.com
+2025-02-05 18:46:52,987 - INFO - Marked message 194d7682fc0e8368 as read
+2025-02-05 18:46:52,988 - INFO - Marked non-appointment email 194d7682fc0e8368 as read
+2025-02-05 18:47:51,090 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:47:51,143 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:48:00,035 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:48:00,065 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:48:01,159 - INFO - Processing email from: 
+2025-02-05 18:48:01,160 - ERROR - Error processing email: Could not determine sender email
+2025-02-05 18:48:16,860 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:48:16,913 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:48:17,978 - INFO - Processing email from: coolmusta@gmail.com
+2025-02-05 18:48:18,673 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-05 18:48:18,975 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-05 18:48:19,615 - INFO - No action needed for email from coolmusta@gmail.com
+2025-02-05 18:48:19,793 - INFO - Marked message 194d85b43a10453a as read
+2025-02-05 18:48:19,794 - INFO - Marked non-appointment email 194d85b43a10453a as read
+2025-02-05 18:48:19,796 - INFO - Processing email from: 
+2025-02-05 18:48:19,796 - ERROR - Error processing email: Could not determine sender email
+2025-02-05 18:48:19,798 - INFO - Processing email from: coolmusta@gmail.com
+2025-02-05 18:48:20,180 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-05 18:48:20,718 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-05 18:48:21,984 - INFO - No action needed for email from coolmusta@gmail.com
+2025-02-05 18:48:22,158 - INFO - Marked message 194d7682fc0e8368 as read
+2025-02-05 18:48:22,159 - INFO - Marked non-appointment email 194d7682fc0e8368 as read
+2025-02-05 18:55:55,528 - INFO - Starting appointment booking service...
+2025-02-05 18:55:55,682 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:55:55,729 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:55:56,456 - ERROR - Error creating appointment agent: "CheckAvailabilityTool" object has no field "calendar_service"
+2025-02-05 18:55:56,457 - ERROR - Error in process_new_emails: "CheckAvailabilityTool" object has no field "calendar_service"
+2025-02-05 18:55:58,928 - INFO - Stopping appointment booking service...
+2025-02-05 18:58:31,297 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:58:31,338 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:58:38,411 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:58:38,426 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:58:39,075 - ERROR - Error creating appointment agent: "CheckAvailabilityTool" object has no field "calendar_service"
+2025-02-05 18:58:39,076 - ERROR - Error in process_new_emails: "CheckAvailabilityTool" object has no field "calendar_service"
+2025-02-05 18:58:49,219 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:58:49,233 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:58:49,687 - ERROR - Error creating appointment agent: "CheckAvailabilityTool" object has no field "calendar_service"
+2025-02-05 18:58:49,688 - ERROR - Error in process_new_emails: "CheckAvailabilityTool" object has no field "calendar_service"
+2025-02-05 18:59:37,220 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:59:37,261 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:59:43,558 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:59:43,574 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 18:59:44,224 - ERROR - Error creating appointment agent: 1 validation error for CheckAvailabilityTool
+calendar_service
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+2025-02-05 18:59:44,224 - ERROR - Error in process_new_emails: 1 validation error for CheckAvailabilityTool
+calendar_service
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+2025-02-05 19:06:45,918 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 19:06:45,957 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 19:06:52,833 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 19:06:53,502 - ERROR - Error creating appointment agent: 1 validation error for SendBookingLinkTool
+gmail_service
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+2025-02-05 19:06:53,504 - ERROR - Error in process_new_emails: 1 validation error for SendBookingLinkTool
+gmail_service
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+2025-02-05 19:08:21,781 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 19:08:21,821 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 19:08:32,485 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 19:08:33,158 - ERROR - Error creating appointment agent: Prompt must have input variable `agent_scratchpad`, but wasn't found. Found [] instead.
+2025-02-05 19:08:33,159 - ERROR - Error in process_new_emails: Prompt must have input variable `agent_scratchpad`, but wasn't found. Found [] instead.
+2025-02-05 19:08:43,808 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 19:08:44,245 - ERROR - Error creating appointment agent: Prompt must have input variable `agent_scratchpad`, but wasn't found. Found [] instead.
+2025-02-05 19:08:44,246 - ERROR - Error in process_new_emails: Prompt must have input variable `agent_scratchpad`, but wasn't found. Found [] instead.
+2025-02-05 19:08:54,886 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 19:08:55,333 - ERROR - Error creating appointment agent: Prompt must have input variable `agent_scratchpad`, but wasn't found. Found [] instead.
+2025-02-05 19:08:55,334 - ERROR - Error in process_new_emails: Prompt must have input variable `agent_scratchpad`, but wasn't found. Found [] instead.
+2025-02-05 19:09:29,716 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 19:09:29,758 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 19:09:40,544 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 19:09:42,311 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-05 19:09:42,377 - INFO - No action needed for email from coolmusta@gmail.com
+2025-02-05 19:09:42,548 - INFO - Marked message 194d85b43a10453a as read
+2025-02-05 19:09:42,957 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-05 19:09:43,128 - INFO - No action needed for email from accounsssddt1123344@gmail.com
+2025-02-05 19:09:43,307 - INFO - Marked message 194d843f2c408bfe as read
+2025-02-05 19:12:20,406 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 19:12:20,447 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 19:12:27,398 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 19:12:29,117 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-05 19:12:29,201 - INFO - No action needed for email from coolmusta@gmail.com
+2025-02-05 19:12:29,451 - INFO - Marked message 194d85b43a10453a as read
+2025-02-05 19:12:29,845 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-05 19:12:29,907 - INFO - No action needed for email from accounsssddt1123344@gmail.com
+2025-02-05 19:12:30,070 - INFO - Marked message 194d843f2c408bfe as read
+2025-02-05 19:12:30,277 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-05 19:12:30,375 - INFO - No action needed for email from coolmusta@gmail.com
+2025-02-05 19:12:30,545 - INFO - Marked message 194d7682fc0e8368 as read
+2025-02-05 19:14:30,575 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 19:14:30,620 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 19:14:39,265 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 19:14:41,008 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-05 19:14:41,107 - ERROR - Error processing email: 'action'
+2025-02-05 19:14:41,108 - ERROR - Error processing email: 'action'
+2025-02-05 19:14:41,565 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-05 19:14:41,760 - ERROR - Error processing email: 'action'
+2025-02-05 19:14:41,761 - ERROR - Error processing email: 'action'
+2025-02-05 19:14:42,120 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-05 19:14:42,268 - ERROR - Error processing email: 'action'
+2025-02-05 19:14:42,268 - ERROR - Error processing email: 'action'
+2025-02-05 19:15:37,886 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 19:15:37,926 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 19:15:59,137 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 19:16:00,973 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-05 19:16:01,100 - ERROR - Error processing email: 'action'
+2025-02-05 19:16:01,101 - ERROR - Error processing email: 'action'
+2025-02-05 19:16:01,436 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-05 19:16:01,601 - ERROR - Error processing email: 'action'
+2025-02-05 19:16:01,602 - ERROR - Error processing email: 'action'
+2025-02-05 19:16:01,883 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-05 19:16:02,020 - ERROR - Error processing email: 'action'
+2025-02-05 19:16:02,021 - ERROR - Error processing email: 'action'
+2025-02-05 19:18:04,406 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 19:18:04,447 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 19:18:17,681 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 19:18:19,412 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-05 19:18:19,786 - INFO - Sent booking link email to coolmusta@gmail.com with message ID: 194d89f3570da6ab
+2025-02-05 19:18:19,983 - INFO - Sent booking link email to coolmusta@gmail.com with message ID: 194d89f35d53b4d9
+2025-02-05 19:18:19,986 - INFO - Sent booking link to coolmusta@gmail.com
+2025-02-05 19:18:20,162 - INFO - Marked message 194d85b43a10453a as read
+2025-02-05 19:18:20,551 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-05 19:18:20,923 - INFO - Sent booking link email to accounsssddt1123344@gmail.com with message ID: 194d89f395f17658
+2025-02-05 19:18:21,119 - INFO - Sent booking link email to accounsssddt1123344@gmail.com with message ID: 194d89f38232d758
+2025-02-05 19:18:21,120 - INFO - Sent booking link to accounsssddt1123344@gmail.com
+2025-02-05 19:18:21,302 - INFO - Marked message 194d843f2c408bfe as read
+2025-02-05 19:18:21,655 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-05 19:18:21,956 - INFO - Sent booking link email to coolmusta@gmail.com with message ID: 194d89f3ce74acbb
+2025-02-05 19:18:22,150 - INFO - Sent booking link email to coolmusta@gmail.com with message ID: 194d89f3dd4aa73f
+2025-02-05 19:18:22,151 - INFO - Sent booking link to coolmusta@gmail.com
+2025-02-05 19:18:22,336 - INFO - Marked message 194d7682fc0e8368 as read
+2025-02-05 19:19:58,122 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 19:19:58,165 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 19:20:04,784 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 19:20:06,739 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-05 19:20:06,921 - ERROR - Error sending reply: <HttpError 400 when requesting https://gmail.googleapis.com/gmail/v1/users/me/messages/send?alt=json returned "Recipient address required". Details: "[{'message': 'Recipient address required', 'domain': 'global', 'reason': 'invalidArgument'}]">
+2025-02-05 19:20:06,923 - ERROR - Error processing email: Failed to send booking link
+2025-02-05 19:20:07,348 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-05 19:20:07,564 - ERROR - Error sending reply: <HttpError 400 when requesting https://gmail.googleapis.com/gmail/v1/users/me/messages/send?alt=json returned "Recipient address required". Details: "[{'message': 'Recipient address required', 'domain': 'global', 'reason': 'invalidArgument'}]">
+2025-02-05 19:20:07,566 - ERROR - Error processing email: Failed to send booking link
+2025-02-05 19:20:07,926 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-05 19:20:08,159 - ERROR - Error sending reply: <HttpError 400 when requesting https://gmail.googleapis.com/gmail/v1/users/me/messages/send?alt=json returned "Recipient address required". Details: "[{'message': 'Recipient address required', 'domain': 'global', 'reason': 'invalidArgument'}]">
+2025-02-05 19:20:08,161 - ERROR - Error processing email: Failed to send booking link
+2025-02-05 19:20:08,516 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-05 19:20:08,800 - ERROR - Error sending reply: <HttpError 400 when requesting https://gmail.googleapis.com/gmail/v1/users/me/messages/send?alt=json returned "Recipient address required". Details: "[{'message': 'Recipient address required', 'domain': 'global', 'reason': 'invalidArgument'}]">
+2025-02-05 19:20:08,802 - ERROR - Error processing email: Failed to send booking link
+2025-02-05 19:20:09,088 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-05 19:20:09,331 - ERROR - Error sending reply: <HttpError 400 when requesting https://gmail.googleapis.com/gmail/v1/users/me/messages/send?alt=json returned "Recipient address required". Details: "[{'message': 'Recipient address required', 'domain': 'global', 'reason': 'invalidArgument'}]">
+2025-02-05 19:20:09,334 - ERROR - Error processing email: Failed to send booking link
+2025-02-05 19:20:51,960 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 19:20:52,002 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 19:20:58,796 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 19:21:00,548 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-05 19:21:00,865 - INFO - Sent booking link reply in thread 194d7682fc0e8368
+2025-02-05 19:21:01,124 - INFO - Sent booking link email to accounsssddt1123344@gmail.com with message ID: 194d8a1aad5319a6
+2025-02-05 19:21:01,126 - INFO - Sent booking link to accounsssddt1123344@gmail.com
+2025-02-05 19:21:01,301 - INFO - Marked message 194d89f395f17658 as read
+2025-02-05 19:21:01,599 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-05 19:21:01,955 - INFO - Sent booking link reply in thread 194d7682fc0e8368
+2025-02-05 19:21:02,166 - INFO - Sent booking link email to accounsssddt1123344@gmail.com with message ID: 194d8a1af6458588
+2025-02-05 19:21:02,167 - INFO - Sent booking link to accounsssddt1123344@gmail.com
+2025-02-05 19:21:02,334 - INFO - Marked message 194d89f38232d758 as read
+2025-02-05 19:21:02,651 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-05 19:21:02,974 - INFO - Sent booking link reply in thread 194d85b43a10453a
+2025-02-05 19:21:03,170 - INFO - Sent booking link email to accounsssddt1123344@gmail.com with message ID: 194d8a1b244da156
+2025-02-05 19:21:03,172 - INFO - Sent booking link to accounsssddt1123344@gmail.com
+2025-02-05 19:21:03,342 - INFO - Marked message 194d89f35d53b4d9 as read
+2025-02-05 19:21:03,613 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-05 19:21:03,930 - INFO - Sent booking link reply in thread 194d85b43a10453a
+2025-02-05 19:21:04,124 - INFO - Sent booking link email to accounsssddt1123344@gmail.com with message ID: 194d8a1b7285ec5f
+2025-02-05 19:21:04,126 - INFO - Sent booking link to accounsssddt1123344@gmail.com
+2025-02-05 19:21:04,291 - INFO - Marked message 194d89f3570da6ab as read
+2025-02-05 19:21:04,663 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-05 19:21:04,943 - INFO - Sent booking link reply in thread 194d85b43a10453a
+2025-02-05 19:21:05,124 - INFO - Sent booking link email to coolmusta@gmail.com with message ID: 194d8a1b8fa45ba9
+2025-02-05 19:21:05,126 - INFO - Sent booking link to coolmusta@gmail.com
+2025-02-05 19:21:05,306 - INFO - Marked message 194d85b43a10453a as read
+2025-02-05 19:22:37,355 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 19:22:37,399 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 19:22:44,166 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-05 19:22:45,758 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-05 19:22:46,125 - INFO - Sent booking link reply in thread 194d8a2fdb4ffa39
+2025-02-05 19:22:46,302 - INFO - Marked message 194d8a2fdb4ffa39 as read
+2025-02-05 19:22:46,474 - INFO - Sent booking link email to coolmusta@gmail.com with message ID: 194d8a3446633771
+2025-02-05 19:22:46,476 - INFO - Sent booking link to coolmusta@gmail.com

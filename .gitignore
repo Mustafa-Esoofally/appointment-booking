@@ -1,0 +1,10 @@
+.env
+venv/
+gauth/credentials.json
+token.json
+__pycache__/
+*.pyc
+credentials.json
+reference/
+email_service.log
+.venv/
