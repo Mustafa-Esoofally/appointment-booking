@@ -9,4 +9,10 @@ python-dotenv==1.0.0
 fastapi==0.109.0
 uvicorn==0.25.0
 pydantic==2.5.3
-python-multipart==0.0.6 
+python-multipart==0.0.6
+streamlit==1.32.2
+flask==3.0.2
+python-dateutil==2.9.0
+requests==2.31.0
+pytz==2024.1
+paymanai==2025.1.31 

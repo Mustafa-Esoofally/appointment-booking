@@ -99,7 +99,7 @@ def check_new_emails(service, query: str = "is:unread") -> List[Dict]:
         logging.error(f"Error checking emails: {str(e)}")
         return []
 
-def send_booking_link(service, to: str, thread_id: str, booking_link: str, subject: str = None, message: str = None) -> bool:
+def send_booking_link(service, to: str, thread_id: Optional[str], booking_link: str, subject: str = None, message: str = None) -> bool:
     """Send a response email with the booking link."""
     try:
         # Create message container
@@ -150,19 +150,24 @@ Doctor's Office
         message_obj['to'] = to
         message_obj['from'] = 'me'  # 'me' is a special value that represents the authenticated user
         message_obj['subject'] = subject or 'Your Appointment Booking Link'
-        message_obj['In-Reply-To'] = thread_id
-        message_obj['References'] = thread_id
+        
+        # Only add threading headers if thread_id is provided
+        if thread_id:
+            message_obj['In-Reply-To'] = thread_id
+            message_obj['References'] = thread_id
         
         # Create the raw email
         raw = base64.urlsafe_b64encode(message_obj.as_bytes()).decode('utf-8')
         
+        # Prepare the email body
+        email_body = {'raw': raw}
+        if thread_id:
+            email_body['threadId'] = thread_id
+        
         # Send the email
         sent_message = service.users().messages().send(
             userId='me',
-            body={
-                'raw': raw,
-                'threadId': thread_id
-            }
+            body=email_body
         ).execute()
         
         logging.info(f"Sent booking link email to {to} with message ID: {sent_message.get('id')}")

@@ -10,6 +10,18 @@ import time
 from calendar_service import get_calendar_service, get_available_slots
 from gmail_monitor import get_gmail_service, check_new_emails
 from appointment_agent import process_new_emails
+import logging
+import threading
+
+# Configure logging
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s',
+    handlers=[
+        logging.FileHandler('email_service.log'),
+        logging.StreamHandler()
+    ]
+)
 
 # Load environment variables
 load_dotenv()
@@ -53,22 +65,33 @@ def format_appointment_time(event):
 def initialize_services():
     """Initialize Google services."""
     try:
-        # Check if token.json exists
-        if os.path.exists('token.json'):
-            creds = Credentials.from_authorized_user_file('token.json', SCOPES)
-            if creds and creds.expired and creds.refresh_token:
+        # Check if we already have valid credentials in session state
+        if 'credentials' in st.session_state and st.session_state.credentials:
+            creds = st.session_state.credentials
+            if creds.expired and creds.refresh_token:
                 creds.refresh(Request())
         else:
-            flow = InstalledAppFlow.from_client_secrets_file('credentials.json', SCOPES)
-            creds = flow.run_local_server(port=0)
-            with open('token.json', 'w') as token:
-                token.write(creds.to_json())
+            # Check if token.json exists
+            if os.path.exists('token.json'):
+                creds = Credentials.from_authorized_user_file('token.json', SCOPES)
+                if creds and creds.expired and creds.refresh_token:
+                    creds.refresh(Request())
+            else:
+                flow = InstalledAppFlow.from_client_secrets_file('credentials.json', SCOPES)
+                creds = flow.run_local_server(port=0)
+                with open('token.json', 'w') as token:
+                    token.write(creds.to_json())
         
-        # Initialize services
+        # Store credentials in session state
         st.session_state.credentials = creds
-        st.session_state.calendar_service = get_calendar_service(creds)
-        st.session_state.gmail_service = get_gmail_service(creds)
         
+        # Initialize services using credentials
+        if 'calendar_service' not in st.session_state or st.session_state.calendar_service is None:
+            st.session_state.calendar_service = get_calendar_service(creds)
+            
+        if 'gmail_service' not in st.session_state or st.session_state.gmail_service is None:
+            st.session_state.gmail_service = get_gmail_service(creds)
+            
         # Initialize monitoring state
         if 'last_check_time' not in st.session_state:
             st.session_state.last_check_time = datetime.now()
@@ -86,19 +109,20 @@ def initialize_services():
 
 def main():
     st.set_page_config(
-        page_title="Doctor's Dashboard",
-        page_icon="👨‍⚕️",
+        page_title="Medical Appointment System",
+        page_icon="🏥",
         layout="wide"
     )
     
-    st.title("👨‍⚕️ Doctor's Dashboard")
+    st.title("🏥 Medical Appointment System")
     
-    # Initialize services if not already initialized
-    if 'credentials' not in st.session_state:
-        with st.spinner("Initializing services..."):
-            if not initialize_services():
-                st.error("Failed to initialize services. Please check your credentials and try again.")
-                return
+    # Initialize services
+    if not initialize_services():
+        st.error("Unable to initialize required services. Please check your credentials and try again.")
+        if st.button("Log in with Google"):
+            initialize_services()  # This will trigger the OAuth flow
+            st.rerun()  # Rerun the app after authentication
+        return
 
     # Display Google Account Information
     with st.sidebar:

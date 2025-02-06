@@ -10,8 +10,9 @@ import json
 import logging
 from pydantic import Field, BaseModel
 import base64
+from urllib.parse import urlencode
 
-from gmail_monitor import get_gmail_service, check_new_emails, send_booking_link, mark_as_read
+from gmail_monitor import get_gmail_service, check_new_emails, mark_as_read
 from calendar_service import get_calendar_service
 
 # Configure logging
@@ -24,7 +25,8 @@ logging.basicConfig(
     ]
 )
 
-BOOKING_APP_URL = os.getenv('BOOKING_APP_URL', 'http://localhost:3000/book')
+# Use the book page URL (Streamlit pages use the filename without .py)
+BOOKING_APP_URL = os.getenv('BOOKING_APP_URL', 'http://localhost:8501/book')
 
 class EmailAnalysisTool(BaseTool):
     name: str = "analyze_email"
@@ -72,7 +74,13 @@ class SendBookingLinkTool(BaseTool):
         try:
             data_dict = json.loads(data)
             appointment_type = data_dict.get('type', 'general')
-            booking_link = f"{BOOKING_APP_URL}?type={appointment_type}"
+            
+            # Create a more structured booking URL with proper query parameters
+            query_params = {
+                'type': appointment_type,
+                'email': data_dict['email']
+            }
+            booking_link = f"{BOOKING_APP_URL}?{urlencode(query_params)}"
             thread_id = data_dict.get('thread_id', '')
             
             # Create a personalized message based on appointment type
@@ -80,30 +88,45 @@ class SendBookingLinkTool(BaseTool):
             if appointment_type == 'follow_up':
                 message = f"""Thank you for requesting a follow-up appointment. I understand you'd like to schedule a follow-up visit.
 
-Please use this personalized booking link to schedule your follow-up appointment:
-{booking_link}
+To schedule your follow-up appointment, please:
+1. Click the booking link below
+2. Select your preferred time slot
+3. Fill in any additional information needed
+4. Confirm your booking
 
-If you have any questions or need assistance, please don't hesitate to reply to this email.
+Booking link: {booking_link}
+
+After booking, you'll receive a confirmation email with the appointment details. If you have any questions or need assistance, please don't hesitate to reply to this email.
 
 Best regards,
 Your Doctor's Office"""
             elif appointment_type == 'consultation':
                 message = f"""Thank you for your interest in scheduling a consultation. We look forward to discussing your health concerns.
 
-Please use this personalized booking link to schedule your consultation:
-{booking_link}
+To schedule your consultation, please:
+1. Click the booking link below
+2. Select your preferred time slot
+3. Fill in any additional information needed
+4. Confirm your booking
 
-If you have any specific concerns you'd like to discuss during the consultation, feel free to reply to this email.
+Booking link: {booking_link}
+
+After booking, you'll receive a confirmation email with the consultation details. If you have any specific concerns you'd like to discuss during the consultation, feel free to reply to this email.
 
 Best regards,
 Your Doctor's Office"""
             else:
                 message = f"""Thank you for your interest in scheduling an appointment.
 
-Please use this personalized booking link to schedule a time that works best for you:
-{booking_link}
+To schedule your appointment, please:
+1. Click the booking link below
+2. Select your preferred time slot
+3. Fill in any additional information needed
+4. Confirm your booking
 
-If you have any questions or need assistance, please don't hesitate to reply to this email.
+Booking link: {booking_link}
+
+After booking, you'll receive a confirmation email with the appointment details. If you have any questions or need assistance, please don't hesitate to reply to this email.
 
 Best regards,
 Your Doctor's Office"""
@@ -298,6 +321,7 @@ Thread ID: {input_data.get('threadId', '')}"""
                         else:
                             # Mark the email as read only if we successfully sent the reply
                             mark_as_read(gmail_service, input_data.get('id', ''))
+                            logging.info(f"Successfully processed appointment request from {sender_email}")
                     
                     return response
                 
@@ -337,26 +361,11 @@ def process_new_emails(credentials):
                 result = agent(email)
                 
                 if result['action'] == 'sent_link':
-                    # Send booking link
-                    booking_data = {
-                        'email': result['details']['email'],
-                        'thread_id': email['threadId'],
-                        'type': result['details'].get('type', 'general')
-                    }
-                    if send_booking_link(
-                        gmail_service,
-                        booking_data['email'],
-                        booking_data['thread_id'],
-                        f"{BOOKING_APP_URL}?type={booking_data['type']}"
-                    ):
-                        processed_count += 1
-                        logging.info(f"Sent booking link to {booking_data['email']}")
-                        mark_as_read(gmail_service, email['id'])
-                
+                    processed_count += 1
+                    logging.info(f"Successfully processed email from {result['details']['email']}")
                 elif result['action'] == 'no_action':
                     logging.info(f"No action needed for email from {result['details']['email']}")
                     mark_as_read(gmail_service, email['id'])
-                
                 elif result['action'] == 'error':
                     logging.error(f"Error processing email: {result.get('reason', 'Unknown error')}")
                     continue
